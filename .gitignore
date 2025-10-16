@@ -1,23 +1,51 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+# Project ignore file (not a gitignore) — per user request
 
-# Distribution / packaging
-.Python
-env/
+# Common Python project ignores
+
+**pycache**/
+_.py[cod]
+_.pyo
+
+# Virtual environments
+
 venv/
-build/
-dist/
-*.egg-info/
+.venv/
+ENV/
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+# Environment files
 
-# env files
 .env
-.env.*
+.env.\*
 
-# VS Code
+# Editor directories
+
 .vscode/
+.idea/
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# Logs and databases
+
+_.log
+_.sqlite3
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Model/checkpoint files
+
+_.ckpt
+_.pth
+\*.bin
+
+# Local settings
+
+local_settings.py
+
+# Ignore node modules if present
+
+node_modules/
